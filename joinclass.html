@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+</head>
+
+<style>
+     body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #0d1117;
+            background-size: cover;
+            background-repeat: no-repeat; 
+            background-position: center;
+            color: #e6edf3;
+            
+        }
+
+        .join-btn {
+    position: relative;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b, #1e90ff, #32cd32);
+    background-size: 300% 300%;
+    animation: glowing 2s ease infinite;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 15px rgba(255, 71, 87, 0.3);
+    overflow: hidden;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+
+    
+  
+  
+
+}
+
+.join-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 25px rgba(255, 71, 87, 0.5);
+}
+
+.join-btn:active {
+    transform: scale(0.95);
+}
+
+
+
+@keyframes glowing {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+.container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+        }
+
+        .text-content {
+            max-width: 600px;
+            text-align: center;
+            align-items: center;
+
+            justify-content: center;
+        }
+
+        .text-content h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+
+            text-align: center;
+            align-items: center;
+
+            justify-content: center;
+            
+        }
+
+        .text-content h2 {
+            font-size: 22px;
+            color: #58a6ff;
+
+            text-align: center;
+            align-items: center;
+
+            justify-content: center;
+        }
+
+        @keyframes glowing {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+</style>
+
+<body>
+   <h1 style="color: whitesmoke; text-align: center;">Join Class</h1>
+   <hr>
+
+   <div class="container" data-aos="flip-right">
+    <div class="text-content" data-aos="fade-right">
+        
+        <a href="https://meet.google.com/czz-ggxu-fiy" class="join-btn" style="display: flex; align-items: center; justify-content: center;">Join class</a>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
